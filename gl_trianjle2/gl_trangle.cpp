@@ -62,7 +62,7 @@ int main() {
 	};
 	
 	unsigned int VAO, VBO;
-	CreateVAO(VAO, VBO,vertices);
+	CreateVAO(VAO, VBO,vertices, sizeof(vertices));
 	while (!glfwWindowShouldClose(window))
 	{
 		// input
